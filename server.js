@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("<h1>Linode server App</h1>");
+  res.send("<h1>Welcome to Whiz Class</h1>");
 });
 
 app.get("/new",(req,res)=>{
